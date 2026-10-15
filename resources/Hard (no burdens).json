@@ -1,0 +1,1464 @@
+{
+    "B000": {
+        "Main Sequence": "LLLL-<BRANCH>-LLLLL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Special item room Branch if EVENT occurs here FLAG1 and FLAG2 must be set in rooms B030 and B143 / GOR15 Hint in S223 (NPC)",
+                "Branch Sequence": "U*-D-LLLLL"
+            }
+        ]
+    },
+    "B001": {
+        "Main Sequence": "<BRANCH>",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Mural room; Recreate in B023 Branch if you have Void Rod",
+                "Branch Sequence": "RRRRR-RRRR"
+            }
+        ]
+    },
+    "B002": {
+        "Main Sequence": "<NOTE>-<BRANCH>-ZLLZ-LLLD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Note: Don't start until you have the void rod, otherwise follow Branch: if you have Void Rod on entry",
+                "Branch Sequence": "Z-LLL-LLLZ-LLLD"
+            }
+        ]
+    },
+    "B003": {
+        "Main Sequence": "RRRRR-UUUZ-RRRD-RRUU-DDUZ-ULDDD-<WAIT>-RDDZ-LU*-LULLL-DUZ-RRR-DRR-UULL-DLLL-UULLL-LLLDZ-RD",
+        "Branches": []
+    },
+    "B004": {
+        "Main Sequence": "DDDUZ-RRRR-DUZ-RRR-<BRANCH>-LZ-RRZ-DLLZ-RRZ-RLZ-RUZ-UU*-DDZ-LLL-DUZ-UUULL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is here (hint for B007) Must have 3 or more locusts to appear (hint in S089)",
+                "Branch Sequence": "*-RLZ-RRZ-DLLZ-RRZ-RLZ-RUZ-UU*-DDZ-LLL-DUZ-UUULL"
+            }
+        ]
+    },
+    "B005": {
+        "Main Sequence": "RDZ-LDDZ-DLUR",
+        "Branches": []
+    },
+    "B006": {
+        "Main Sequence": "DZUZ-UULL-DDD-<WAIT>-RRLZ-RDDDZ-UUUZ-DDDD-LLZ-RRUZ-DLLLZ-RRZ-LLLZ-RRZ-LUZ-DLRZ-LLURR-DUZ-UDZ-URZDZ-RU*-LL-DUZ-UULU",
+        "Branches": []
+    },
+    "B007": {
+        "Main Sequence": "RRRZ-LRZ-RRRRR-ZDZ-ULL-DDRZ-LDDD-DDDD-RZ-RDDDD-LLLLL-<BRANCH>-L",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S007 Hint in B004 (NPC)",
+                "Branch Sequence": "Z-RRRRR-UUUU-LRZ-DDDD-LLLLL-RZLZ-LL",
+                "Exit to": "S007"
+            }
+        ]
+    },
+    "B008": {
+        "Main Sequence": "UUUUU-RDD-RRR-URRR-RRDD-RRU-LDLR-ULUL-DDDD-RRD-LLLRL-UUU-LLL-LLL-DDDL-RZ-UUUZ-RRLZ-DLDD-LRZ-LUUU-RRDU-RRRRR-DDD",
+        "Branches": []
+    },
+    "B009": {
+        "Main Sequence": "LRR-UUU-LLLRR-URDD-LL-UUUUU-DZ-UU-LLLLZ-LLLU*-RRRLZ-RDZ-DDLLL",
+        "Branches": []
+    },
+    "B010": {
+        "Main Sequence": "LUUU*-DDD-RRR-UURD-UU-RRRRR-DZ-ULLL-DDRRR-Z-URUUU-RRURR-DDLLD-RUUU-LLD-RRRR-DRU-LUL-UUU-RRD",
+        "Branches": []
+    },
+    "B011": {
+        "Main Sequence": "LLL-LLL-RRZ-LLZ-RRLZ-RZ-RRR-LLL-RZLZ-LZRRZ-LLRZ-LZLZ-RRZ-LLRZ-LZ-LL",
+        "Branches": []
+    },
+    "B012": {
+        "Main Sequence": "DD-LLLL-DDD-LLZRZ-RUZ-DLLZ-RRLZ-RUZ-UURRR-DDD-RRR-RRR-LLLRZ-LLZRZ-LLZRZ-LLZRZ-LLZRZ-LLZRZ-LLZ-LDDDD-<WAIT>-URRLZ-RRZLZ-RRZLZ-RRZLZ-RRDDD-LZLZ-RRUUU-LRZLZ-RDDD-LLZ-LLLL-U*-RRRRR-RRRRR",
+        "Branches": []
+    },
+    "B013": {
+        "Main Sequence": "LRZ-LLLZ-LRZ-LZ-LLLRZ-ULRZ-LZRRZ-RRRZ-LLLLL-Z-LLD-RRR-URRR",
+        "Branches": []
+    },
+    "B014": {
+        "Main Sequence": "RRRRR-LZUUZ-DZUZ-URRZ-LLDDZ-UULL-DD-LDDDL-DDRZ-LDDD-DDDD-RUUU-RRRRR-Z-LLLLZ-RRRRZ-RDRRR-UU*-DD-LLLDD-LRRLZ-UUU-LLLLL-Z-RZLZ-LULL",
+        "Branches": []
+    },
+    "B015": {
+        "Main Sequence": "DDDD-RRRR-LLL-LLL-UUUU-LRRRR-LDDDD-RRRR-UUURR-DDRZ-LZUZ-DRZ-LZUZ-ULZRZ-RRLLZ-RRDZ-DUZDZ-DRR",
+        "Branches": []
+    },
+    "B016": {
+        "Main Sequence": "LLL-UUU-LLLUU-DDUD-UURU-RRDDU-LLLLL-LLLLL-DLDD-UDUU-DDDD-RRRUU-ULLZ-RRDUZ-DZ-UUDUD-UUU-UUUU",
+        "Branches": []
+    },
+    "B017": {
+        "Main Sequence": "DRRZ-LL-DDDD-LLLL-UULL-UUR-UUU-LLL-DDDRZ-DDRR-DDR",
+        "Branches": []
+    },
+    "B018": {
+        "Main Sequence": "RRRRR-UUU-UUU-RUZ-RRDLZ-LLL-URZ-LDUZ-DRZ-LUZ-UZDRZ-LU-DZUZ-U*-DDRR",
+        "Branches": []
+    },
+    "B019": {
+        "Main Sequence": "URURD-DRRR-ULZ-RDZ-LUZ-DDRZ-LUUDZ-UZUDZ-RLZ-RDDUZ-DRZ-RRR",
+        "Branches": []
+    },
+    "B020": {
+        "Main Sequence": "LL-UUUU-DZ-LRZUZ-DZDUZ-RDZDZ-UULRZ-DR-LZRZ-LUDZ-RZ-RR",
+        "Branches": []
+    },
+    "B021": {
+        "Main Sequence": "LLRZ-LLLL-ULLZ-DLDRR-UUZ-DDRRZ-R",
+        "Branches": []
+    },
+    "B022": {
+        "Main Sequence": "LDL-DDU-RDRRR-DDRU-RULR-DDRL-ULULL-URLD-RR-DLDLL-RUR-URDD-RZ-LL",
+        "Branches": []
+    },
+    "B023": {
+        "Main Sequence": "RUU-<BRANCH1>-U",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch1 for secret exit to S023 Hint in B001 (mural)",
+                "Branch Sequence": "Z-<BRANCH2>-U",
+                "Exit to" : "S023"
+            },
+            {
+                "Info / Branch Condition": "Branch2 for secret exit to S223 Requires Void Wings Requires special item from B000 ",
+                "Branch Sequence": "<BRANCH3>-LRZRZ-LDRZ-UDZ-RLZ-LDZ-UUDZ-LUDZ-DZLDZ-RLZ-ULRZ-UZUZ-DLRZ-UDZDZ-D",
+                "Exit to": "S223"
+            },
+            {
+                "Info / Branch Condition": "Branch3 for secret exit to dev room Requires Void Wings Requires special item from B000",
+                "Branch Sequence": "DZDUZ-RULRZ-DZDUZ-LRZ-LLDUZ-LUZ-RLZ-UDZ-LUDZ-DZDZ-DRZRZ-UZ-LUDZ-RRDZ-DLRZ-RRLZ-RUZ-UUDZ-LL",
+				"Exit to": "quit"
+            }
+        ]
+    },
+    "B024": {
+        "Main Sequence": "LZRRR-DRR-UDZ-DRLZ-UDZ-DUZ-RUDZ-DUZLZ-LRZ-DRLZ-LRZLZ-LRZ-URLZ-LRZ-LDZ-UZRZ-LDDD-RLZ-UURZ-LDUZ-DDRLZ-UURZ-LDD-LLLZ-RRRZ-UUZ-DZUUZ-UZ-DDDZ-UUUDZ-UZ-ULLZ-RRZ-LL-RZLZ-LRZLZ-LLLLL-DDZZ-DD-RRRR-DR",
+        "Branches": []
+    },
+    "B025": {
+        "Main Sequence": "RRRR-ZZ-RUUU*-DR",
+        "Branches": []
+    },
+    "B026": {
+        "Main Sequence": "DDL-DDD-LLLL-UZZ-DDD-LLLLL-UUL-DDD-<WAIT>-RDD-LU*-RDDD-RRRD-UZZ-DDD-LDDD-URZZ-ULURR-LULD-LLZ-DDD-RRRRR-DD-RRRR-UZU",
+        "Branches": []
+    },
+    "B027": {
+        "Main Sequence": "RRRZ-DZDZZ-DDRU-LZ-D-RRRRR-UZ-ULDRZ-UZ-ULD-RDZ-LURUZ-LDDZ-RUU-RRU-RRRR-RRRDZ-DDD",
+        "Branches": []
+    },
+    "B028": {
+        "Main Sequence": "LLL-LLL-U*-DRZ-LUDZ-DUZ-LLLLL",
+        "Branches": []
+    },
+    "S007": {
+        "Main Sequence": "LL-DDDD-RRRR-URU*-DRRD-RRLZ-RR-UUUUL",
+        "Branches": []
+    },
+    "S023": {
+        "Main Sequence": "DLLLL-U*-DLLLL-U*-RRRR-UUUU-UUU-<WAIT>-DDD",
+        "Branches": []
+    },
+    "B029": {
+        "Main Sequence": "UZ-D-RRRRR-Z-LLLLL-RZLUZ-URRRR-LZRZ-RLZRZ-RLZRZ-R*-RRUU*-DD-<BRANCH>-DD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Mural room; Recreate in B053 Hint for rooms B031, B032, B035, B036, B037, B038, B042, B044, B045, B046, B047, B048, B049 (together they provide a hint for B053) Void Memory required for hint NOTE: These \"tail\" rooms will no longer be shown if FLAG1 is set on B030 Branch for secret fruit Void Wings required",
+                "Branch Sequence": "RRRR-DDRZ-LLLD"
+            }
+        ]
+    },
+    "B030": {
+        "Main Sequence": "<BRANCH>-DRRRR-RRRR-U*-RRDDR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Tail's room Branch to set FLAG1 for room B000 Void Wings required Void Blade required Hint in S053 (NPC)",
+                "Branch Sequence": "R-UUUUU-UUUUU-UUUUU-UUUUU-UUU-<WAIT>-DZ-UUUUZ-DZ-UURZ-RZ-DDD-RRRR-RRRD-DR"
+            }
+        ]
+    },
+    "B031": {
+        "Main Sequence": "UUDZ-UULL-DZ-LRZDZ-DDZ-UUU-LRZ-LLZDZ-URRRU",
+        "Branches": []
+    },
+    "B032": {
+        "Main Sequence": "LLLL-LLLLZ-RRLZ-RZ-UUULL-DZ-DDRZ-LUZ-UDZ-UUL-DDD-<WAIT>-RZ-DDLU*-RUUDZ-URZ-RRLLZ-RZ-RRLLZ-RZ-RRLLZ-RZ-RRR-LLZRZ-RLZRZ-RLZRZ-RRU",
+        "Branches": []
+    },
+    "B033": {
+        "Main Sequence": "LLLLZ-DDUZ-UZDZ-DUZDR-LLRZ-RDZUZ-LZRUZ-UDZ-LDUZ-UDZ-URZ-RRZ-LLDZ-URZ-LDDZ-UULRZ-DDDZ-UUZ-LUDZ-DUZ-DRLZ-DDD-<WAIT>-LDD-RU*-RUUDZ-UUZDZ-LUZ-UDZ-URLZ-LRZLZ-LRZLZ-LL",
+        "Branches": []
+    },
+    "B034": {
+        "Main Sequence": "LZ-URRDZ-DD-RRRRR-UUR-DDD-<WAIT>-RDDL-U*-ZLZ-LRZLZ-LRZLZ-LRZLZ-LRZLZ-LRZLZ-LRZLZ-LLRRZ-LZ-LRZ-LUDZ-DDRR",
+        "Branches": []
+    },
+    "B035": {
+        "Main Sequence": "URLZ-UUU*-DRDRZ-RRRZ-LLRZ-RLZRZ-RLZRZ-RLZ-RUZ-RLUU",
+        "Branches": []
+    },
+    "B036": {
+        "Main Sequence": "Z-URRR-RRRZ-DDD-<WAIT>-RZDUZ-UDZ-LRZ-RLZRZ-RLZRZ-RZLLZ-RZ-LUDZ-LRZDZ-DUZ-RLZ-LDUZ-RDRLZ-DUZLZ-LU*-RZUZ-UDZUZ-UDZUZ-URR",
+        "Branches": []
+    },
+    "B037": {
+        "Main Sequence": "DU-<BRANCH>-UZDZ-RLZUZ-UDZ-UULRZ-DZURZ-RLZRZ-RLZRZ-RRZ-LLLZ-RZLLZ-RZ-LLDZ-URZ-LDDZ-UURLZ-DDD-RRZ-LUUZ-LDD-RRRZ-LLZ-RRRZ-LLZ-RRRZ-LLZ-RRRZ-LLZ-RRRZ-LLZ-RRR-UDZ-D",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Room with a tail (hint for B053) Branch for secret exit to S037 Hint in B044 (NPC)",
+                "Branch Sequence": "ZLL-RRRZ-LZRRZ-LZRRZ-LZRRZ-LZRRZ-LZ-RRDUZ-URZ-R",
+				"Exit to": "S037"
+            }
+        ]
+    },
+    "B038": {
+        "Main Sequence": "RD-RRRR-DDD-LLD-LLLLL-UULL-ULLDR-RDRUU-LZ-RRUDZ-LZ-RDUZ-UUUUU-DDUZ-DDLZ-RUZ-DDZ-ULZ-RUZ-DZUZ-UDZUZ-UDZ-URRZ-RZ-DDDUZ-UZDZ-DUZ-DLD-RRRDD-UZLZ-RULZ-RZDLZ-RZLZ-LRZ-LLURZ-DUZ-RDUZ-LZRRZ-RR",
+        "Branches": []
+    },
+    "B039": {
+        "Main Sequence": "LLZ-UUDZ-LLU-LLLZ-RUUU-RRRR-LZDZ-ULRZ-RRZ-LLZ-LRZLZ-LRZLZ-LZRRZ-LZRRZ-LZRDZ-ULRZ-DDZ-UUL-DDDD-RDZ-ULRZ-RLZRZ-RLZRZ-RLZR-DDUU-DZ-DUZDZ-DUZDZ-DD",
+        "Branches": []
+    },
+    "B040": {
+        "Main Sequence": "LUZ-RDDDD-UUUU*-LD-RRRRR-D-RRRRR-D-LLLLL-D-RRRRR-UU-RRRU-RRRRR-RRRR-DD-LLLL-UUUUU-UUDD-LLL-LLL-RRRD-RRD-RRRRR-U-RRR-RRR-RRR-ULLL-LLLL-LLLL-UU",
+        "Branches": []
+    },
+    "B041": {
+        "Main Sequence": "RRDDD-LLD-LLL-UURUR-DD-RRRRR-DRU-LLD-LLLZ-U-RRRRR-DRZ-LDLZ-RURZ-RRUU*-RDUZ-DD-LLLLL",
+        "Branches": []
+    },
+    "B042": {
+        "Main Sequence": "URDZ-LDUZ-UUDZ-UU-DDUZ-UZ-LRRLZ-DZ-ULL-RRLZ-RRUUU-DLL-LLLZ-U",
+        "Branches": []
+    },
+    "B043": {
+        "Main Sequence": "DD-RRRRR-UZ-RU*-DZ-DUZDZ-DUZDZ-DUZD-LLLL-LLLRZ-UZDRZ-RLZRZ-RLZ-RRZLZ-RRURZ-DLLZ-RRU-RLZ-LRZLZ-LRZLZ-LRZLZ-RD-RZLZ-LRZLZ-LRZLZ-LRZLZ-RU-RZLZ-LRZ-DUZ-UDZUZ-UDZUZ-UZDDZ-UZDDZ-UZ-DLLZ-RZLLZ-RDRZ-UZUDZ-LDUZ-UDZ-URLZ-RZLLZ-DRZ-LUZRZ-ULZ-DZUZ-UZRLZ-DL-DDDL",
+        "Branches": []
+    },
+    "B044": {
+        "Main Sequence": "RUUU-RDRRU-RURRZ-DRRR-<BRANCH>-Z-RR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Room with a tail (hint for B053) Branch if NPC is here (hint for B037) Must have 21 or more locusts to appear (hint in S089)",
+                "Branch Sequence": "RZ-RDD-LR*-LZRUZ-UDZUZ-URDD"
+            }
+        ]
+    },
+    "B045": {
+        "Main Sequence": "ULZ-DLLU-LURZ-RU",
+        "Branches": []
+    },
+    "B046": {
+        "Main Sequence": "DDLLU-RRZ-UDZ-DDDD",
+        "Branches": []
+    },
+    "B047": {
+        "Main Sequence": "LURR-UUU-LLZ-UDZ-DRLL",
+        "Branches": []
+    },
+    "B048": {
+        "Main Sequence": "DRUUU-LDDLD-LLLL-DDDU-RR-UUU-LLL-DDD-RRR-RRR-LLD-RDDDD-LZRRZ-LZ-RRUZ-DLZ-RUUZ-DZ-UULRZ-RDDD-<WAIT>-LDD-RU*-LUZ-LLLLL-DZ-DLLU",
+        "Branches": []
+    },
+    "B049": {
+        "Main Sequence": "DD-RRRRR-ZZ-ULLUU-RZ-DRRRR-RRD",
+        "Branches": []
+    },
+    "B050": {
+        "Main Sequence": "LLZ-DRZ-URLZ-RDUZ-UDZ-LRZ-UUZ-DDZ-DUZLZ-DRLZ-RUZ-LLRZ-DRLZ-LRZLZ-LRZ-URLZ-LDUZ-RRZ-LLRZ-LDUZ-UDZUZ-UDZUZ-URZ-LDDZ-DUZDZ-U-LLLLL-U*-D-RRRRR-DD",
+        "Branches": []
+    },
+    "B051": {
+        "Main Sequence": "DDLL-DZ-LRRLZ-LRZLZ-LRZ-LLDUZ-UZ-DRLZ-RRDDD-UZLLZ-LZ-RRLZ-RZLLZ-RZLL-DUZ-RZLUZ-UU",
+        "Branches": []
+    },
+    "B052": {
+        "Main Sequence": "RZLLZ-RR-LZRZ-RZLLZ-RR-LZRZ-RLZ-RRRR-DLZ-LULZ-RDZ-DUZDZ-DUZ-DLRZ-RLZUZ-DDUZ-RLZ-RZLLZ-RZ-LDUZ-RDZ-ULUZ-UZ-DDRZ-LUDZ-RRZ-LLRZ-DUZ-UDZ-ULZ-DR-LZRZ-ULLRZ-DRLZ-LRZLZ-LRZ-URLZ-LRZLZ-DR-LZRZ-ULLRZ-DRLZ-LRZ-ULZ-DR-LZRZ-ULLRZ-DRLZ-LUZ-RDZ-RLZ-ULRZ-DRZLZ-UR-LZRZ-LDZ-URRZ-LZ-DLRZ-RLZ-UDZ-RZLZ-DUZRZ-RLZRZ-RZLLZ-RZUDZ-DLU-LLLL-DD-RRR",
+        "Branches": []
+    },
+    "B053": {
+        "Main Sequence": "<BRANCH>-DDDDR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S053 Hints in B029 (mural), and B031, B032, B035, B036, B037, B038, B042, B044, B045, B046, B047, B048, B049 (rooms with tails)",
+                "Branch Sequence": "Z-URDR-LLRZ-RRLDU-LLL-RRZLZ-LLRRR-LZ-RDDZ-DZ-LDR",
+				"Exit to": "S053"
+            }
+        ]
+    },
+    "B054": {
+        "Main Sequence": "UUUZ-DZ-DZ-URUDZ-RLZ-DUZDZ-UURZ-LDZUZ-UDZ-URZ-DRZ-ULRZ-RZLU",
+        "Branches": []
+    },
+    "B055": {
+        "Main Sequence": "DDDDZ-ULLL-LLLLL-DLLZ-DUZ-LUUUU-Z-DLZRZ-RRZ-LUUZ-DD-UZRZ-DLLRZ-UZ-UULR-DLUR-DLUR-DDL-UUR-DDDL",
+        "Branches": []
+    },
+    "B056": {
+        "Main Sequence": "LLL-LLL-U*-D-LLLLL",
+        "Branches": []
+    },
+    "S037": {
+        "Main Sequence": "D-LLLLL-Z-RRRR-RRRR-URUU*-DD-LLLL-UUULL",
+        "Branches": []
+    },
+    "S053": {
+        "Main Sequence": "RRZZ-RUUUU*-DDDD-RRR",
+        "Branches": []
+    },
+    "B057": {
+        "Main Sequence": "RRRRR-UUUU*-DDD-RRRRR",
+        "Branches": []
+    },
+    "B058": {
+        "Main Sequence": "LLLLL-LLLLD",
+        "Branches": []
+    },
+    "B059": {
+        "Main Sequence": "UUUU*-RURR-RLZRZ-RLZRZ-RLZ-RRZ-LZ-RDDZ-DD-UUUU-DDD-LLL-LLL-DDR",
+        "Branches": []
+    },
+    "B060": {
+        "Main Sequence": "UUDRU-RDDD-RRR-RRR-LUUR-DDD-<WAIT>-LDDR-U*-LLLL-LLL-UUUR",
+        "Branches": []
+    },
+    "B061": {
+        "Main Sequence": "RRRR-RRR-DDDDD-UUUUU-LLLLL-LLL-DDD-LLL-RRR-DD",
+        "Branches": []
+    },
+    "B062": {
+        "Main Sequence": "Z-RD-ULUDZ-URLDD-RRUU-RRUZ-LUDD-RUZ-DLRUU-LLDD-LRDD-UZ-DRRUU-LRDDR",
+        "Branches": []
+    },
+    "B063": {
+        "Main Sequence": "UUD-LLLLL-ULLLU-LLLL-LLLL-DU-LLLL-DRZ-LLLLL-Z-RRLZ-RRRRZ-LULD-RRRR-U*-Z-LDLU-LLLU-LLL-LLL-DULL-DLLLZ-RRRU-RRDRR",
+        "Branches": []
+    },
+    "B064": {
+        "Main Sequence": "ULRRR-DRZ-DUU*-LLLZ-RZ-DRRZ-LLLUL-RZ-D-RRRRR-Z-LZRRZ-RRRR",
+        "Branches": []
+    },
+    "B065": {
+        "Main Sequence": "LLLZ-RRUU-DDDD-UULL-UULL-LLLLL-DRU-RRRR-DLULL-DDD-<WAIT>-LL-DDDD-RRUU*-Z-DLLU-LLLR-DDRR-UURRR-DDDD-RRRRR",
+        "Branches": []
+    },
+    "B066": {
+        "Main Sequence": "RRDD-RZ-LUU-RRZ-RRZ-DDD-<WAIT>-LDDD-<WAIT>-LDDD-<WAIT>-LDDD-<WAIT>-LUDDD-RZ-LUU-RRRR-LZRZ-RRRRR-DZ-ULLZ-RRUZ-DDZ-DLL-LLLRZ-LUUZ-DDUZ-DRZ-RRRZ-U*-LU*-LU*-LU*-LUZ-LZ-DD",
+        "Branches": []
+    },
+    "B067": {
+        "Main Sequence": "RDZUZ-UUZ-RLZ-<BRANCH>-LLL-RRRZ-DDLZ-LL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S067 Hint in B057 (mural)",
+                "Branch Sequence": "DZRLZ-ULZ-RRDUZ-LLRZ-DLZ-RZULZ-LZU-RLZ-DRRLZ-DRZ-LUULL-RRLZ-RDRDZ-DLUUZ-RLZ-LDUZ-RDDRZ-UZ-RDDZ-LUULZ-DZDZ-URLZ-LZ-RRUZ-LDZLZ-RRDUZ-LLLZ-LRZ-UDZ-DDUZ-LUZ-UDZ-URZRZ-LLDZ-URRUR-ZR",
+				"Exit to": "S067"
+            }
+        ]
+    },
+    "B068": {
+        "Main Sequence": "LDZUZ-RRRR-RRRZ-LZ-LLL-LLL-UZZ-DRRR-RRRR-LZRZ-RRRZ-LLLL-ZL",
+        "Branches": []
+    },
+    "B069": {
+        "Main Sequence": "UU-LLLLZ-DDD-LLLL-UUU-RRZLZ-RRRR-RRR-LLLL-DDDD-DDD-UUUU-UUD-RRRR-DDDZ-UUU-LLLL-LLLRZ-LZLRZ-LLZRZ-LLZ-LDDD-<WAIT>-RRR-DDD-LLLU*-DRRR-UUUU",
+        "Branches": []
+    },
+    "B070": {
+        "Main Sequence": "LLLLL-RRRZ-ULZ-DLRZ-LUZ-DLRZ-UURLZ-DDLLZ-RRUU-LLUZ-DRRDZ-ULL-UDZRZ-LUUZ-UDDDR-UUL-UUU-RRRRR",
+        "Branches": []
+    },
+    "B071": {
+        "Main Sequence": "LDZ-RDDL-DRR-ULUZ-RZ-DLL-DUZ-RRU-LUZ-LDD-RURZ-DUDLL-UDDUZ-RRRRR-LRU-LUZ-RDDDZ-ULL-LLLL-RLDDL",
+        "Branches": []
+    },
+    "B072": {
+        "Main Sequence": "RRRRR-UULLL-DZULZ-LRZLZ-LRZLZ-LRZLZ-DUZRZ-LDZ-URUDZ-DZLZ-LRR-UDU-LLU",
+        "Branches": []
+    },
+    "B073": {
+        "Main Sequence": "DDD-<WAIT>-LDZ-UUU-RRR-DDDD-RLZ-LZRZ-RRLLZ-RZ-RRLLZ-RZ-RRLLZ-RZ-RRLLZ-RZ-RRLLZ-RZ-RZLLZ-RZLLZ-RZLLZ-RZLLZ-RZLLZ-RZLLZ-LU*-RR-UUUZ-DDD-LLZ-RR-UUDZ-UUZ-ULLL-DDDUZ-DDRRZ",
+        "Branches": []
+    },
+    "B074": {
+        "Main Sequence": "LLLLL-UUU-RZ-LDDDZ-UUZ-DDD-RUZ-DLURZ-UZUZ-DDD-LLRR-LZ-RUUZ-DDLLL-RRLZ-RZ-UUU-LUR-LLLZ-DUZ-DDD-RRRZ-RL",
+        "Branches": []
+    },
+    "B075": {
+        "Main Sequence": "LDDD-LLLL-LLLU-RRUU-LDLL-ULLL-DRDDZ-RRRZ-RRZ-LDUZ-LRZUZ-UDZUZ-UDZUU-LRZDZ-URZ-RR",
+        "Branches": []
+    },
+    "B076": {
+        "Main Sequence": "DDZ-LLLLL-DL-RZUZ-RDZ-RDZ-LUUDZ-LZUZ-RDDUZ-LZRZ-DDLUU-LURR-DRLZ-L",
+        "Branches": []
+    },
+    "B077": {
+        "Main Sequence": "LLLZ-U*-DRD-RRRR-UZ-UUUZ-RURR-DZ-DDDRD",
+        "Branches": []
+    },
+    "B078": {
+        "Main Sequence": "LRRR-UULL-DDUU-LLUZ-LRZ-LLLL-LLL-RRRRR-RRRR-ULDZ-LLLL-LLLL-DUZ-U*-DDDD",
+        "Branches": []
+    },
+    "B079": {
+        "Main Sequence": "URRR-LLLL-LLDD-RRRUU-LLLDD-RRRR-RRUU-RRRDD-LLLDD-LLLUU-RRRDD-LLLUU-RRRDD-LLLL-LLUU-RRRR-RRU",
+        "Branches": []
+    },
+    "B080": {
+        "Main Sequence": "LLRZ-LLDU-LLZ-RRZ-LLL-DRZ-URRLZ-RZRZ-LLZRZ-DULLL-UDZ-DUZ-RRDUZ-LZ-DURRZ-LUDZ-RDDR-DUZ-UUUUU-LDDRD-RRRR-RRU",
+        "Branches": []
+    },
+    "B081": {
+        "Main Sequence": "DLZ-DRRUZ-LRZ-UDZ-DLLZ-RUU*-RDZ-DLD",
+        "Branches": []
+    },
+    "B082": {
+        "Main Sequence": "ULUU-RU-RRRR-DD-LLLL-DRRRD",
+        "Branches": []
+    },
+    "B083": {
+        "Main Sequence": "DUU-RRR-LLULL-UU-RRRR-DRDDD-R-<BRANCH>-RD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S083 Hint in B086 (NPC)",
+                "Branch Sequence": "UUU-DLRZ-UZLRZ-LDUZ-UDZ-ULRR-LZ-LRZLZ-LDLR-ULDZ-URLZ-RZLLZ-RZLLZ-RZLLZ-LU*",
+				"Exit to": "S083"
+            }
+        ]
+    },
+    "B084": {
+        "Main Sequence": "LLL-LLL-U*D-LLLLL",
+        "Branches": []
+    },
+    "S067": {
+        "Main Sequence": "UU*-DDZ-LLLLL-UZ-UUU",
+        "Branches": []
+    },
+    "S083": {
+        "Main Sequence": "DLLLL-UDZ-ULU*-DD",
+        "Branches": []
+    },
+    "B085": {
+        "Main Sequence": "UUDZ-URRRZ-RDLZ-URZ-RUU*-UUUU-UUU*-RDDD-RD-RRR-UULL",
+        "Branches": []
+    },
+    "B086": {
+        "Main Sequence": "LLUZ-LLLD-<BRANCH>-LLLLL-UDZ-DD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is here (hint for B083) Must have 49 or more locusts to appear (hint in S089) NOTE: If you do not have Void Wings at this point, restart the game to restart the room (avoids dying and going into VOID mode) Otherwise, continue the branch sequence",
+                "Branch Sequence": "Z-DRD-RR*-<NOTE>-ULLLU-LLLL-DD"
+            }
+        ]
+    },
+    "B087": {
+        "Main Sequence": "UULU-RRR-DDDL-UUUU-RRRD-LULLL-DDR-UUUU-UUU-DD-RRRR-RRRR-DRR-UUUUU-LLLZ-R-DDDDD-LLUR-LDUZ-LLUR-DLLL-ULLZ-RDZ-D",
+        "Branches": []
+    },
+    "B088": {
+        "Main Sequence": "DRRZ-LUUZ-RDZ-LRZRZ-LUDZ-LUZDZ-RUZ-LDUZ-UZ-DDRRZ-LLLUU-LLRDZ-RD-RRRRR-RRRR-U*-DLLLL-LLLLD-LZ-ULLDD",
+        "Branches": []
+    },
+    "B089": {
+        "Main Sequence": "RLLL-<BRANCH>-LUUZ-RRRR-DZR-DDD-LUR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S089 Hint in B085 (mural)",
+                "Branch Sequence": "Z-DD-RRRUZ-LRZUZ-DLLRZ-UUU-DZDZ-RUU-DDUZ-DRLZ-ULZ-LUL-UURZ-DDD-UZUZ-DDRR-UULLZ-LZUDZ-DUZRZ-DDDUZ-RLZ-RZR",
+				"Exit to": "S089"
+            }
+        ]
+    },
+    "B090": {
+        "Main Sequence": "LZ-ULL-UUU-LLUUU-LLLL-DDD-RLZ-UUZ-DDLRZ-RZ-LUUZ-DDUZ-DRZ-LZRRZ-LZ-RLRR-UDZ-LL-RZLZ-LRZ-LUZ-UUL",
+        "Branches": []
+    },
+    "B091": {
+        "Main Sequence": "DRRLZ-RRRRR-DDUU-DZ-DDD-RRRU*-RLLL-DLLL-ZZ-RDDD-RUUU-LLLL-UL",
+        "Branches": []
+    },
+    "B092": {
+        "Main Sequence": "RRRR-URRL-URU-LLL-RDLD-RURL-UR-UUUUU-LDRDL-DDZ-URL-DRLZ-LRZLZ-RURL-UUU-RLZ-DDDD-LRZLZ-RURL-UUU-RLZ-LLLLL-LLLLZ-DDZDZ-LUUZ-DDRZZ-RDDD-<WAIT>-LZUDZ-DDRU*-LUUUR",
+        "Branches": []
+    },
+    "B093": {
+        "Main Sequence": "<BRANCH>-RRLZ-RZRLZ-RRRR-RRR-DZDD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "DDD-RRRR-RRRR"
+            }
+        ]
+    },
+    "B094": {
+        "Main Sequence": "LLUU-LURR-DDRR-LZRUZ-UU*-LZRDZ-DZ-UULZ-RDZ-ULUDZ-RDULL-DUUDZ-LLLL-UDUUD-LLU*-DDZ-URRZ-UDZDZ-ULRZ-UUD-RRRR-UUU-UUU-DUUD-LLLLZ-RRRR-UDZ-LRZ-LLLL-DZUZ-RLZ-DD-LLUU-LDD-DDDDD-RRR",
+        "Branches": []
+    },
+    "B095": {
+        "Main Sequence": "DDD-<WAIT>-<BRANCH>-LLU*-LLU*-LLU*-LD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is present",
+                "Branch Sequence": "RRRRR-LLLDD-RU*-LLU*-LLU*-LD"
+            }
+        ]
+    },
+    "B096": {
+        "Main Sequence": "UUU-<BRANCH>-Z-RRRR-DZR*-LU*-ZLRZ-RRLLZ-RZ-RLZRZ-RLZR-DDZ-DRUD-UL*-RDDRR-UR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "RRRU*-DRRRR-DRRR"
+            }
+        ]
+    },
+    "B097": {
+        "Main Sequence": "DLLDD-RRUUZ-DDLL-DDDDD-LUU-RLZ-DDRRZ-LLUU-LZ-LRLR-LRLR-LRRDZ-ULLR-LLZ-DDLLL-UUU-RR-UUUUU-RRRRR-UDUD-RRRRR-UZDDZ-UZLRZ-LZ-RDD-RRZ-LLUU-RLZ-DDRRR-UUZ-DDLLL-UU-RLRL-RRZLZ-LRZLZ-LLLLL-U",
+        "Branches": []
+    },
+    "B098": {
+        "Main Sequence": "DLLLL-LLLLL-LLLLL-LLLLL-LLLLL-LLLLL-RDRR-UU-DDUU-RRR-DDRR-UR",
+        "Branches": []
+    },
+    "B099": {
+        "Main Sequence": "UU-LLLZ-DDLUZ-RDDDU-LLLL-DLLLL-UULZ-ULRR-DDULZ-RUZ-LUULL",
+        "Branches": []
+    },
+    "B100": {
+        "Main Sequence": "DDDDZ-RRRZ-RUUU-RRRUU-LLDLZ-DDLD-RRR-RRRUU-LLLLL-DLD-RRR-RRRUU-LLLLL-DLD-RRR-RRR-UUUU-LLLL-DD-RRRR-UUZ-U",
+        "Branches": []
+    },
+    "B101": {
+        "Main Sequence": "LDDD-LZ-DLL-UUUU-LLL-DRRRR-LZLRZ-LDUZ-ULLZ-RRZ-RLZRZ-RLZRZ-RZLLZ-LDZRZ-URZ-LLDZ-DZ-UURRZ-LLRZ-LZLRZ-DDZDZ-UUU-LRZ-RLZ-DDDZ-DRLZ-RRZ-LL-UUUZ-DDD-RLZ-LLLU-RRRR-DRUUU",
+        "Branches": []
+    },
+    "B102": {
+        "Main Sequence": "UUUUU-UUUUU-DRUZ-RRZ-DLDD-URRRR-RRR",
+        "Branches": []
+    },
+    "B103": {
+        "Main Sequence": "Z-RDRZ-ULZ-RDLZ-LDZUZ-RZLDZ-UUZ-DRZ-LDL-UURZ-DUZ-LDUZ-RZDUZ-LDUZ-RLZ-RDUZ-LUUU-RDD-RDLDD",
+        "Branches": []
+    },
+    "B104": {
+        "Main Sequence": "ULLLR-UUDD-UDUU-RZ-LLLZ-DD-UUUU-DD-RRUDZ-RZ-LLLL-RUU-RRRRR-RRRR",
+        "Branches": []
+    },
+    "B105": {
+        "Main Sequence": "LLL-DDL*-DDD-LLL-RZLZ-LLRZ-LZ-LRZLZ-LUD-RRLZ-RUUUZ-UU",
+        "Branches": []
+    },
+    "B106": {
+        "Main Sequence": "RLL-DDDUD-RLZ-RRDZ-DDDU-RRR-DRRRZ-UUU-UUU-LLL-DDDD-RRRZ-LLL-UUUU-RRR-LLL-DDDD-RRRRR",
+        "Branches": []
+    },
+    "B107": {
+        "Main Sequence": "LLL-LLL-UUU-UUU-DDLDD-LLRR-UDU-RLD-LLL-DDDR-UUUU-RRRRR-RRRRR-DRZ-ULLL-DDD-RRZ-DLLZ-URDRZ-ULLZ-DRRRZ-ULLZ-DRURZ-DRZ-ULD-LLLZ-LLL-UUULL",
+        "Branches": []
+    },
+    "B108": {
+        "Main Sequence": "DDRR-URRRR-LLDZZ-UDDD-RRUU-DDRLZ-UUU-LLLL-DUZ-RRDZ-URR-DDD-RLZ-UUUU-DDDLZ-RUUU-LLDZ-URR-DDDUZ-DLZ",
+        "Branches": []
+    },
+    "B109": {
+        "Main Sequence": "DD-LLL-LLL-UUUU-UUU-UUU-RRR-DDD-RRR-UUU-RRR-DDD-RR-DDDD-RRR-UUUU-UUUU-RRR-DDDD-DDDD-DZ-UUUU-LL-DDDD-LRZ-RLZ-RD",
+        "Branches": []
+    },
+    "B110": {
+        "Main Sequence": "U-LLLLL-LLLLL-RUUUZ-LRU-RRRRZ-RRRRR-D",
+        "Branches": []
+    },
+    "B111": {
+        "Main Sequence": "LLLD-LLL-DDLL-DDD",
+        "Branches": []
+    },
+    "B112": {
+        "Main Sequence": "LLL-LLL-U*-D-LLLLL",
+        "Branches": []
+    },
+    "S089": {
+        "Main Sequence": "DDZ-<BRANCH>-ZDD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for hints for rooms B004, B044, B086, B124, and B196 Void Wings required Exit to B111",
+                "Branch Sequence": "RZ-LDUZ-RRZ-LLUZ-DRRR-UZUU*-DDD-LLL-DD",
+				"Exit to": "B111"
+            }
+        ]
+    },
+    "B113": {
+        "Main Sequence": "RRRRR-<BRANCH>-UUUU*-DDD-RRRRR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is present Mural room; Recreate in B137",
+                "Branch Sequence": "RRRRR-U"
+            }
+        ]
+    },
+    "B114": {
+        "Main Sequence": "DLLL-LLL-LLL",
+        "Branches": []
+    },
+    "B115": {
+        "Main Sequence": "RR-UUUR-DDRDL-UUZ-DLZRZ-UZ-URULU-LLLLL-DDD-LLLLL-DDD-LDL-RUDZ-RRR-DRZ-UZDLZ-LLLL-UUUU-RRRRR",
+        "Branches": []
+    },
+    "B116": {
+        "Main Sequence": "DDDRR-UUU-LLLL-DDDRZ-ULL-ULL-ULLU-RRR-RRRZ-LLL-UUU-LU*-LL-DDD-DDD-RRRR-RRRR-URRU-LLLLL-LLLL-UUU-RRRR-RRU",
+        "Branches": []
+    },
+    "B117": {
+        "Main Sequence": "RDZ-ULZ-LDUR-ZZZ-LDDRZ-DLRZ-DDD-LUDZ-RDD",
+        "Branches": []
+    },
+    "B118": {
+        "Main Sequence": "LUUU-RRRRR-DLL-LLLL-DDD-<WAIT>-ULDDD-LDDR-UURRR-DZ-ULLL-DD-RRRZ-U*-RUU-LUULL-DRR-ULL-DDRR-UULL-DDDD-RRR-UULUU-LL-DDDD-RRR-UULUU-LL-DLLLU",
+        "Branches": []
+    },
+    "B119": {
+        "Main Sequence": "LDD-RRRR-LUR-UUU-LLLL-RRDD-RLL-UUUU-RDLDD-RUULL-DD-RRDD",
+        "Branches": []
+    },
+    "B120": {
+        "Main Sequence": "UURU-DZ-URRDD-LLRZ-LDR-RUZ-DLZ-UU-LLDZ-RRR-URZ-DDRU-LUUR-DRRR-DU-LLLLL-UU",
+        "Branches": []
+    },
+    "B121": {
+        "Main Sequence": "URRRR-DLZ-DDRR-UURZ-RRULZ-RZ-DLZRZ-URLZ-DRZLZ-RUDZ-DUZDZ-DUZDZ-DUZLZ-LLZ-RRRZ-DLZ-RUZ-LRZUZ-LLD-RLZ-RRZ-RUZ-LLLZ-RZ-LLD-LLLLZ-LLD",
+        "Branches": []
+    },
+    "B122": {
+        "Main Sequence": "RRRDD-RRRRR-UZRLZ-RRZ-LLLZ-RRRLZ-RZRLZ-RRRR-UUULZ-DDD-<WAIT>-LRZ-LLLU*-RDZDZ-LRZ-RU*-Z-LLZ-DUZLZ-RDZUZ-ULZ-DUZ-RZLZ-LRZ-LLZ-LU*-RRD",
+        "Branches": []
+    },
+    "B123": {
+        "Main Sequence": "DRRRL-UU-RDRR-LDDDZ-RLZ-LLUDZ-ULRZ-RUDZ-UZ-RDZ-LUUZ-DUU-LRZLZ-LD-RRLZ-RDDDZ-UZRDZ-UZ-DDLRZ-UZDRZ-RUUZ-DLLLL-Z-LLLL-UU*-DDRZ-URZ-RD-RRRRR-URRU",
+        "Branches": []
+    },
+    "B124": {
+        "Main Sequence": "DLZ-ULLDD-UDUU-RUR-DDDLD-ULLU-LLLL-<BRANCH>-U",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is here (hint for B131) Must have 56 or more locusts to appear (hint in S089)",
+                "Branch Sequence": "LLLL-LLLL-U*-RRRRU"
+            }
+        ]
+    },
+    "B125": {
+        "Main Sequence": "RLUZ-DZ-LLLL-RRRR-DLLLU-LLLL-DDDU-ZZ-UU-RRRR-DDD",
+        "Branches": []
+    },
+    "B126": {
+        "Main Sequence": "DDDD-RRUL-DLLL-URRR-DRRD-UUUU-RURR-UL-DDDD-RD-LLLLL-DLLLL-U-DDDDD-UUUU-LUU-RRR-DDD-RRR-UULUU-LU",
+        "Branches": []
+    },
+    "B127": {
+        "Main Sequence": "LLDDD-L-DDDDD-RRRR-RRRZ-UUU-DDD-LLLL-LLL-UUUDL-DRDD-RRRR-RRR-UUU-RLZ-DDDDD-LLLL-LLL-RRRR-RRR-UUUUU-UUUU",
+        "Branches": []
+    },
+    "B128": {
+        "Main Sequence": "DDU-RUD-UULD-RRRRR-UU-RRRR",
+        "Branches": []
+    },
+    "B129": {
+        "Main Sequence": "DD-LLLL-URUU-LLDD-DDLDD-RRRZ-ULZ-UZDLZ-LLL-UUZ-DDRRR-RRR-UDZ-RRDL-RRD",
+        "Branches": []
+    },
+    "B130": {
+        "Main Sequence": "UZDUZ-DDU-LLLUU-LLL",
+        "Branches": []
+    },
+    "B131": {
+        "Main Sequence": "RZZ-LDRRZ-UU-LZUL-DZU-LL-DRDL-DDLLL-UL-<BRANCH>-L",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S131 Hint in B124 (NPC)",
+                "Branch Sequence": "RZ-RLZRZ-RLZRZ-RLZRZ-RLZRZ-RLZ-RDUZ-RLZ-UURDL-DDRLZ-UZDLZ-LDLU",
+				"Exit to": "S007"
+            }
+        ]
+    },
+    "B132": {
+        "Main Sequence": "RLRU-DDR-UURRR-DDD-LLDR-UUUU-LLU-RRUU-LRRR-DD-RRRR",
+        "Branches": []
+    },
+    "B133": {
+        "Main Sequence": "RLZUZ-UUZDZ-DZLZ-LLDLL-UULLZ-DDDD-DDDD-RRRR-UURZ-RDZ-LLZ-LZUZ-RDZ-RURRZ-DLZ-URRUZ-UUZ-LD-LLLL-UUUL",
+        "Branches": []
+    },
+    "B134": {
+        "Main Sequence": "LUUU-RRRR-DDD-UUU-LLLL-LLDDD-UUUU-RRUU-DDUU-LL-DDDD-UUUU-RRDDD-LUUU-DDUU-LLDDD-UURR-DDZ-UURR-DDDZ-DUZLZ-RZLZ-LLLZ-RRRRZ-RR-LLLL-UUU-LRZ-LLRR-UU-DDDU",
+        "Branches": []
+    },
+    "B135": {
+        "Main Sequence": "LLLRR-LLLL-U*-DRRRR-RRRR-RRRD-LLLL-LLUU",
+        "Branches": []
+    },
+    "B136": {
+        "Main Sequence": "LLDL-RURR-DDUU-RRRR-DRD-LLL-DDU-LLLLL-UD-LLRRZ-DDD-LRZLZ-RRRR-RRZLZ-RRRZ-RR",
+        "Branches": []
+    },
+    "B137": {
+        "Main Sequence": "RDDD-UZDDZ-D-<BRANCH>-L",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S137 Hint in B113 (mural)",
+                "Branch Sequence": "DRLZ-UUZ-DDD-LUULL-UZDZ-DLLUZ-RUZ-UURR-LZ-DLL-DRZ-RRRRR-LZ-ULLD-UZ-RRRRR-UZ-DDLL-UZ-UUULZ-RUZ-UUDZ-RDUZ-LZ-ULLUZ-DR-UZDZ-LRZ-UZDZ-D",
+				"Exit to": "S137"
+            }
+        ]
+    },
+    "B138": {
+        "Main Sequence": "UZDLZ-LLUL-UUZ-LLLUU-LLDDD-<WAIT>-LDD-RRDR-DRZ-RRZ-LLDZ-URRLZ-RZRLZ-RZ-RLZRZ-RZDZ-ULZ-RDRLZ-LZUDZ-RZLZ-LRZ-URLZ-LRZLZ-LRZ-DRLZ-LUZ-DZRZ-LZLZ-RUZ-RUZ-DDZUZ-LZ-DRLZ-UUZ-DZ-RDUZ-UDZUZ-UDZ-LUZDZ-URZ-RULZ-DZLLZ-DZURZ-DUZ-UDZ-ULLLZ-RZDLZ-UDZLZ-LZ-RRUZ-LRZ-LULDZ-DDD-RRZ-LLZRZ-LLZ-RURZ-LZLDZ-RRZ-ULLRZ-LDZ-ULDZ-RURZ-DLZ-RRDLZ-LULRZ-LZ-URLZ-RDDZ-UUDZ-ULZ-LRZ-DLZLZ-RUDZ-RRLZ-ULRZ-RLZ-RDZ-DLUZ-LZDUZ-LLZ-RRZ-LLU*-Z-RRD-LLL-ULLD-RRLZ-RRZLZ-RRZRZ-LLLZ-RRR-LZRZ-RLZRZ-RLZRZ-RLZRZ-RUR",
+        "Branches": []
+    },
+    "B139": {
+        "Main Sequence": "LDUZ-DLD-RRRR-DDDD-DDU-<BRANCH>-ULLL-LLL-DU*-URRRR-RRRD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "R"
+            }
+        ]
+    },
+    "B140": {
+        "Main Sequence": "LLL-LLL-U*-D-LLLLL",
+        "Branches": []
+    },
+    "S131": {
+        "Main Sequence": "ULLU*-DRRRR-UU-RRRRR-Z-LDDDD",
+        "Branches": []
+    },
+    "S137": {
+        "Main Sequence": "<BRANCH1>-U*-<BOSS>-URZ-RZZ-DDUZ-DLUZ-ZZZ-ZZZ-UZ-DLLZ-LZLZ-ZDDL-RUZ-UDZUZ-UZ-DDUZ-DZ-DLLL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Void Blade room (boss fight) Branch1 if boss is already dead Branch2 if you have the Void Blade Begin sequence at BOSS if respawning after the battle starts Exit to B140",
+                "Branch Sequence": "<BRANCH2>-LU-RRRRR-D-LLLLZ-RRRRR-UZ-DLLLL-Z-RRRUZ-DLLZ-RRUUZ-DDLZ-RRUUZ-DDLZ-UURZ-DLLZ-RUURZ-DDLZ-URRZ-LLDZ-RDRU-LUUU-RZ-RDL-LDZ-LLZ-UZDLZ-RRRUU-LDRDD-LLLLL-LLLLL-LLLLL-D",
+				"Exit to": "B140"
+            }
+        ]
+    },
+    "B141": {
+        "Main Sequence": "UU-RRRR-RRR-RRRZ-LZRDZ-ULRZ-LLRZ-LZ-DDUU-LLLLL-UDDRR-UZRUZ-UU*-LU*-RDDZ-RRRZ-RR",
+        "Branches": []
+    },
+    "B142": {
+        "Main Sequence": "RD-LLRZ-LDLL-UUZ-ULLL-DLUU-\nLLDLZ-RURR-RRRRZ-DDDRR-UURU-\nLLL-DDLL-UUURU-LLL-LLL-DLLU-\nRRRR-RRRR-DRUU-LLLL-LLLD-\nLDDLD-RR",
+        "Branches": []
+    },
+    "B143": {
+        "Main Sequence": "RRRR-U*-U*-<BRANCH>-DRRLZ-U*-\nDRRR-RRZ-RUUU-UU",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Gor's room\nBranch if you have the Void Blade\n  or if Gor is absent\nSet FLAG2 for B000 if you have the Void Blade\n  and Gor is here",
+                "Branch Sequence": "UUUU"
+            }
+        ]
+    },
+    "B144": {
+        "Main Sequence": "DLD-LLL-UDU-DDZ-LLLU*-Z-DU-\nRRR-RRR-<BRANCH>-DDL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S144\n  If a secret NPC was on B143,\n  the tile will be shown",
+                "Branch Sequence": "RRRD",
+				"Exit to": "S144"
+            }
+        ]
+    },
+    "B145": {
+        "Main Sequence": "UUUUU-<WAIT>-DDRU*-RRRUU-LLL",
+        "Branches": []
+    },
+    "B146": {
+        "Main Sequence": "LLDD-RZ-LUUU-RRRUL",
+        "Branches": []
+    },
+    "B147": {
+        "Main Sequence": "LLDLZ-RUDZ-DDZ-LLUZ-URRLZ-RUZ-\nU",
+        "Branches": []
+    },
+    "B148": {
+        "Main Sequence": "UUUZ-LLLU-RRUR-DDDDD-LDDDR-\nUUUUU-DLD",
+        "Branches": []
+    },
+    "B149": {
+        "Main Sequence": "URRR-UDZ-UU-LLLL-DDRD-UZUDZ-\nUUZUZ-DDDZ-D",
+        "Branches": []
+    },
+    "B150": {
+        "Main Sequence": "LDD-RRRR-DDRUZ-DDLZ-ULLZZ-\nLDRRZ-UUUZ-UU",
+        "Branches": []
+    },
+    "B151": {
+        "Main Sequence": "LZDRZ-LZRRZ-RU*-RR-LLDD-UZ-\nDDLL-RRZ-RRLL-UDZ-UUZ-U",
+        "Branches": []
+    },
+    "B152": {
+        "Main Sequence": "RRRRZ-LZ-LRZLZ-LLZ-RRRZ-LLZ-\nRRRZ-LLRZ-LLZ-RRULZ-DRZ-LLZ-\nRRR-RRRUZ-LLLZ-DLLLZ-RZ-LLUUZ-\nUUZDZ-D",
+        "Branches": []
+    },
+    "B153": {
+        "Main Sequence": "DDU-RRZ-DDDDD-RRUUU-L",
+        "Branches": []
+    },
+    "B154": {
+        "Main Sequence": "LRLU-RRDD",
+        "Branches": []
+    },
+    "B155": {
+        "Main Sequence": "Z-RRD-RLZ-LUZLZ-LRZ-LDUZ-UDZ-\nUR",
+        "Branches": []
+    },
+    "B156": {
+        "Main Sequence": "DDRR-DDUL-DDL-UUU-DDDDL",
+        "Branches": []
+    },
+    "B157": {
+        "Main Sequence": "<BRANCH>-LDDD-DDR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S157\n  Hint in B141 (mural)",
+                "Branch Sequence": "DZ-LDLUU-RLDZ-DDL-DDRRZ-LUZRZ-\nUZ-ULU-DZD",
+				"Exit to": "S157"
+            }
+        ]
+    },
+    "B158": {
+        "Main Sequence": "UU-RRURD-ULLL-DDURR-LUR-DDD-\nUULU-LLU",
+        "Branches": []
+    },
+    "B159": {
+        "Main Sequence": "LLDD-RDLL-UUDDL-UULD-<WAIT>-\nLDDD-RU*-LLLD",
+        "Branches": []
+    },
+    "B160": {
+        "Main Sequence": "RZ-DDRRU-UZ-UD-RRRR-DU-RRRR-\nRRR",
+        "Branches": []
+    },
+    "B161": {
+        "Main Sequence": "RULUU-RURR-DDRR-UU-RULL-RRD-\nRRRRR-URR",
+        "Branches": []
+    },
+    "B162": {
+        "Main Sequence": "DDD-LLLL-RRZLZ-LLLZ-RRRRZ-\nLLLL-RZLZ-LUUZ-DDRRZ-LLRZ-\nLUUZ-DDUZ-DRZ-RRRRZ-LLLLL-UZ-\nDRRRR-LZRRZ-RRUUZ-DD-LLLLZ-\nRRLZ-RRR-UUZ-DDLLL-RZLZ-LLLL-\nUZ-D-RRRRR-Z-LLLLL-RZLUZ-UU-\nLLLL-DDD",
+        "Branches": []
+    },
+    "B163": {
+        "Main Sequence": "<BRANCH>-R",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S163\n  Hint in B196 (NPC)\n  Turn off Void Wings before branching\n    You must fall before the mimic does\n    Otherwise you will lose a life",
+                "Branch Sequence": "LRZR",
+				"Exit to": "S163"
+            }
+        ]
+    },
+    "B164": {
+        "Main Sequence": "LRLUZ-DRUUZ-UUL",
+        "Branches": []
+    },
+    "B165": {
+        "Main Sequence": "DRDDL-UUZDZ-D",
+        "Branches": []
+    },
+    "B166": {
+        "Main Sequence": "UDLU*-DRD",
+        "Branches": []
+    },
+    "B167": {
+        "Main Sequence": "UUU-RRRR*-RRR-RRR-DDDDD",
+        "Branches": []
+    },
+    "B168": {
+        "Main Sequence": "LLL-LLL-U*-DLL-LLL",
+        "Branches": []
+    },
+    "S144": {
+        "Main Sequence": "LZ-RRUUZ-U*-DDUZ-DDLLZ-RZLLZ-\nLLL-<BRANCH>-UU",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to\n  GOR01\n  Requires Void Blade\nChest only available in branch sequence\nNonogram puzzle\n  Treasure in B217\nExit to B146",
+                "Branch Sequence": "ZRZ-LLZ-U*-LZ-LLLU*-RRZR",
+				"Exit to": "B146"
+            }
+        ]
+    },
+    "S157": {
+        "Main Sequence": "UUUU-LLLRZ-<BRANCH>-ZRRU",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for hint for B143 / GOR15\n  Requires Void WIngs\nExit to B162",
+                "Branch Sequence": "LLULZ-RDRRR-LZ-LLU-LLLZ-RRLZ-\nLLDZ-DDDR*-LUUUU-RRRRD-RRRRU",
+				"Exit to": "B162"
+            }
+        ]
+    },
+    "S163": {
+        "Main Sequence": "LLZ-RR-UUUUU*-DDLLL",
+        "Branches": []
+    },
+    "GOR01": {
+        "Main Sequence": "UUU-RRZ-RZR",
+        "Branches": []
+    },
+    "GOR02": {
+        "Main Sequence": "ULLZ-LDZD",
+        "Branches": []
+    },
+    "GOR03": {
+        "Main Sequence": "UU-RRR-ZR",
+        "Branches": []
+    },
+    "GOR04": {
+        "Main Sequence": "ZD",
+        "Branches": []
+    },
+    "GOR05": {
+        "Main Sequence": "DLLL-ZL",
+        "Branches": []
+    },
+    "GOR06": {
+        "Main Sequence": "DD-RRZR",
+        "Branches": []
+    },
+    "GOR07": {
+        "Main Sequence": "RRUU-LLLL-LLDR-ZR",
+        "Branches": []
+    },
+    "GOR08": {
+        "Main Sequence": "DURZR",
+        "Branches": []
+    },
+    "GOR09": {
+        "Main Sequence": "ULD-RZR",
+        "Branches": []
+    },
+    "GOR10": {
+        "Main Sequence": "LDLDD-LLUU-RURUU-RRDD-LLLD-\nLLL-UUZU",
+        "Branches": []
+    },
+    "GOR11": {
+        "Main Sequence": "LLLL-DDLD-RRR-UUU-LLL-DDDD-\nLRU-RRRU-RRR-DDZD",
+        "Branches": []
+    },
+    "GOR12": {
+        "Main Sequence": "UUZ-UUU-LULZ-UU-LUUU-LUUU-\nLUUU-LUUU-LDDDD-RRZR",
+        "Branches": []
+    },
+    "GOR13": {
+        "Main Sequence": "D",
+        "Branches": []
+    },
+    "GOR14": {
+        "Main Sequence": "RNG DEPENDANT\nUNABLE TO SEQUENCE",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Boss fight\nIf boss is dead use branch sequence",
+                "Branch Sequence": "UUU"
+            }
+        ]
+    },
+    "GOR15": {
+        "Main Sequence": "LL*-LLLLL-DD",
+        "Branches": []
+    },
+    "B169": {
+        "Main Sequence": "U-RRRRR-UUU*-RDDD-RRRR",
+        "Branches": []
+    },
+    "B170": {
+        "Main Sequence": "RLLLD-LLL-LLL",
+        "Branches": []
+    },
+    "B171": {
+        "Main Sequence": "URR-DDD-DDD-URZ-DUZ-UUU-DRZZZ-\nLULLL-DDZDZ-RRZ-RRRRR-D",
+        "Branches": []
+    },
+    "B172": {
+        "Main Sequence": "LLLLL-UDLL-UURU-DZURZ-DDD-\n<WAIT>-LDLDD-UZDRZ-RRLU*-\nDLLRZ-LUZ-URUR-UZ-DLDZ-DZRZ-\nLLUDZ-RRRZ-LLUZ-DRRRZ-LZRRZ-\nRZ-LLLZ-RRZ-LLLL-UZ-DLLZ-RRR-\nRRRZ-LLLLL-Z-RRRR-RRZ-LLLLL-\nUURZ-LDDZ-RZ-LUURZ-RUZDZ-\nLZRDZ-DLLZ-RR-UUUZ-DDDUZ-\nDLLUZ-DZ-UURZ-URUD-LDLDD-UZ-\nDRLZ-RRLL-URDUR-DRRU-RRR-UUU-\nRRR",
+        "Branches": []
+    },
+    "B173": {
+        "Main Sequence": "DLZZ-LURZ-D-LLLLL-U*-DDDRD-\nRRRR-U-<BRANCH>-*-LRZ-DU*-\nZRRZ-RRD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "LRZ-RLZ-RRZ-RRD"
+            }
+        ]
+    },
+    "B174": {
+        "Main Sequence": "<BRANCH>-UUUUU-DZ-ULLZ-DDD-\nLZRZ-DD-LLLLZ-RRUZ-UDZUZ-\nLZRUZ-DZUUZ-ULRZ-DDDZ-UUULZ-\nRZ-DZULZ-LZ-RRDZ-ULZ-R-DDDDZ-\nDLRZ-UUUUU-LZRZ-DDDDD-LRZ-R",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "LLL-LLL-UUUUU"
+            }
+        ]
+    },
+    "B175": {
+        "Main Sequence": "<BRANCH>-DZ-ULL*-RZ-RLZDZ-D-\nUUUUU-DDUU-DDLZ-RUDZ-DDZ-UULZ-\nRDZ-ULL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "DDRR-DDDLL"
+            }
+        ]
+    },
+    "B176": {
+        "Main Sequence": "<BRANCH>-*-U-RRRRR-DUZDZ-ULLL-\nDUZ-RRR-DDUU-DZ-ULLLL-Z-RRRR-\nDDRLZ-UULLL-Z-RRRDD-LZ-RUU-\nLLZ-RRDD-LLZ-RRUU-LZ-RDUZ-UUZ-\nDDDD-LLLZ-RRR-UUUU-LZ-RDUZ-\nUDZLZ-RZUDZ-LLLRR-DDDDR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "U-RRRRR-UZDDZ-ULLZ-RRDUZ-\nLZRUZ-ULLL-RR-DDDDR"
+            }
+        ]
+    },
+    "B177": {
+        "Main Sequence": "<BRANCH>-LL*-LLLL-LLLL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "LZ-RDDDD-DLZ-LLLL"
+            }
+        ]
+    },
+    "B178": {
+        "Main Sequence": "<BRANCH>-RL*-ULRZ-DUZ-UDZ-\nURUZ-U*-LLU*-RU",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "RUZ-LDUZ-RLZ-RDUZ-DLZ-RUUUZ-\nU*-LLU*-RU"
+            }
+        ]
+    },
+    "B179": {
+        "Main Sequence": "D-LLLLL-U*-DRRUR-<BRANCH>-U",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch for secret exit to S179\n  Hint in B169 (mural)",
+                "Branch Sequence": "RR-DDDD-LLLL-ULURR-DRR-UUU-\nLDDUZ-LULR",
+				"Exit to": "S179"
+            }
+        ]
+    },
+    "B180": {
+        "Main Sequence": "<BRANCH>-UUU-LLLL-RRDDD-UUDLL-\nDDRRR-LZRDZ-DRR*-LL-UUUU-RZLZ-\nLLU*-RRRD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "DUUUU-LLRZ-LLLZ-LLU*-RRRD"
+            }
+        ]
+    },
+    "B181": {
+        "Main Sequence": "<BRANCH>-LL*-LRZ-LDZ-DZUUZ-\nUULZ-RDDRZ-RZ-LLDRZ-LUUZ-\nDRRDZ-ULL-DUZ-RRDRZ-LULZ-RZ-\nRURRZ-LLD-LRZ-URZ-DDZ-UZLRZ-\nLDUZ-RRR-DUZ-UDZ-LLLLL-ZLZ-\nRRRR-RRUDZ-LLD-LLZ-RRZ-DLLLZ-\nRRRZ-UZ-LLDZ-URZ-ULLLZ-RZLDZ-\nULRZ-DDZ-RRRUZ-LZ-DDDUU-LLRR-\nDRRD-RRRZ-UDUZ-UUZ-LRZ-RR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent\nHidden memory\n  Hint in S131 (nonogram)",
+                "Branch Sequence": "LRZ-LDZDZ-UUZ-UULZ-RDDRZ-LUZ-\nDDRZ-LUZ-RRDZ-ULLLZ-RRR-DDZ-\nDLRZ-LZLLZ-RRRZ-LUZ-RUULL-DUZ-\nRRDDD-LLZ-RUZ-DRLZ-URRZ-DLL-\nUUUDZ-URRZ-URRZ-LDZ-ULRZ-DLRZ-\nDU-RRDDD-RZ-LLLL-UUU-LDZ-RLZ-\nDUU-RRURZ-RLZ-DDU-RRDDD-LLLL-\nUULZ-LUDZ-URRR-RRUDZ-RDDD-UZ-\nDLLLL-UUU-LLDZ-DUD-UUZ-RRRDD-\nRZ-DLL-RRUUU-LLLLZ-DDRD-RRRRR-\nUZ-DUD-LLZ-UUU-RRZ-RR"
+            }
+        ]
+    },
+    "B182": {
+        "Main Sequence": "<BRANCH>-L*-DD-LLLL-UURLZ-\nDDRZ-LUUUU-RR-DDDD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "LLLL-LLR"
+            }
+        ]
+    },
+    "B183": {
+        "Main Sequence": "<BRANCH>-U*-RRR-DDD-LLLLL-\nLLLLL-UUU-RRR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "LURL-DRRRR-DDD-LLLLL-LLLLL-\nUUU-RRR"
+            }
+        ]
+    },
+    "B184": {
+        "Main Sequence": "<BRANCH>-DU*-RUUU-UUUUU-UUUUU-\nUUUUU-DD-LLLL-DD-RRRRR-RRRRR-\nUUU-LLL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "UUUUU-UUUUU-UUUUU-UUUUU-UUDD-\nLLLDD-RRRRR-RRRRR-UUU-LLL"
+            }
+        ]
+    },
+    "B185": {
+        "Main Sequence": "U*-LUD-LLL-DUUR-DZURZ-RLZ-RDZ-\nDUZDZ-DDR",
+        "Branches": []
+    },
+    "B186": {
+        "Main Sequence": "ULZ-UD*-UU-LLLZ-ULLLL-RRR-DLLL",
+        "Branches": []
+    },
+    "B187": {
+        "Main Sequence": "*-LL-DDDZ-URLZ-RZLDZ-\nURLZ-RZ-RDDDL-U",
+        "Branches": []
+    },
+    "B188": {
+        "Main Sequence": "<BRANCH>-DU*-DDLL-RRUU-RRRR-\nUUUU-RR-DDDD-LLLL-RZLZ-LL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "UUU"
+            }
+        ]
+    },
+    "B189": {
+        "Main Sequence": "DRRR-DDD-<WAIT>-RDDL-U*-\n<BRANCH1>-<BRANCH2>-LLLD-RRRR-\nUUURZ-ULLL-LLL*-DZ-D",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch1 if NPC is absent",
+                "Branch Sequence": "<BRANCH2>-DRRR-UUUR"
+            },
+            {
+                "Info / Branch Condition": "Branch2 for secret fruit\n  Void Wings required\nBranch3 if NPC is present",
+                "Branch Sequence": "LLLLL-RZRLZ-LRRD-\nRRRR-UUUR-<BRANCH3>-R"
+            }
+        ]
+    },
+    "B190": {
+        "Main Sequence": "<BRANCH>-DU*-DLL-UUZ-LLD-LLU-\nLLLDD-RDD-RRURR-DRRZ-RRU",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent",
+                "Branch Sequence": "DZUUZ-ULLLL-DDLLL-ULLDD-RDDRR-\nURRD-RRURR"
+            }
+        ]
+    },
+    "B191": {
+        "Main Sequence": "R*-LLLLU-LLLLL-UURD-RRUUL-\nRDDD-RLZUZ-UULZ-RRRRR-U*-ZD",
+        "Branches": []
+    },
+    "B192": {
+        "Main Sequence": "<BRANCH>-LR*-<NOTE>-DLR*-\n<NOTE>-D*-<NOTE>-LR*-DDDDD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch if NPC is absent\nAt every instance of NOTE, restart game\n  After final NOTE, Void Memory required for lore",
+                "Branch Sequence": "DDDD"
+            }
+        ]
+    },
+    "B193": {
+        "Main Sequence": "RRRRR-UUU-LLL-LLL-RUZ-DDRR-\nUULZ-DUZ-LUDZ-DUZDZ-LLZ-RDUZ-\nRZLLZ-RRDDD-LLZ-RRR-UUZ-DDLL-\nUZDLZ-UUULZ-DRZ-RRU",
+        "Branches": []
+    },
+    "B194": {
+        "Main Sequence": "LDRZ-DDLLZ-DZ-LUUZ-URL-DDDDD-\nRRR-UURR-DLUL",
+        "Branches": []
+    },
+    "B195": {
+        "Main Sequence": "DZULZ-RZLLZ-RZ-LLLL-UURZ-\nRLZRZ-RLZRZ-RLZ-RUDZ-ULZ-\nRRDDZ-UZ-LDDZ-UZDDZ-RUZDZ-DUZ-\nDLRZ-RLZRZ-RR",
+        "Branches": []
+    },
+    "B196": {
+        "Main Sequence": "LLLLL-<BRANCH>-LU*-U*-D-LLLLL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Rest area; End of Area 7\nBranch if NPC is here (hint for B163)\n  Must have 77 or more locusts to appear\n  (hint in S089)",
+                "Branch Sequence": "*-LLU*-D-LLLLL"
+            }
+        ]
+    },
+    "S179": {
+        "Main Sequence": "U*-Z-RRRR-UU*-DD-LLLLL-DDLRZ-\nRD",
+        "Branches": []
+    },
+    "S193": {
+        "Main Sequence": "<NOTE>",
+        "Branches": [
+			{
+				"Info / Branch Condition" : "Inaccessible in Hard Mode"
+			}
+		]
+    },
+    "B197": {
+        "Main Sequence": "RRR-RRR-<BRANCH>-RRRRU",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Mural room; Recreate in B223\nBranch for mural hint\n  Requires Void Memory",
+                "Branch Sequence": "UUU*-DD-RRRR"
+            }
+        ]
+    },
+    "B198": {
+        "Main Sequence": "LLLL-LLLL-LD",
+        "Branches": []
+    },
+    "B199": {
+        "Main Sequence": "RZLZ-LRRLZ-RZRRZ-LLLZ-RRLZ-\nRRZRZ-LLLZ-RRLZ-RRZ-RRRRZ-\nLLLL-LLZ-LLLRR",
+        "Branches": []
+    },
+    "B200": {
+        "Main Sequence": "UUU-LLLL-DLDZ-RRUU-LLZ-LLUU",
+        "Branches": []
+    },
+    "B201": {
+        "Main Sequence": "LL-DDDDD-RRRRR-UUUL-DDRZ-DLUU-\nRRRRR-D",
+        "Branches": []
+    },
+    "B202": {
+        "Main Sequence": "LLL-LLL-UUUU-RRRRR-DDD-LLLL-\nUUU-RRDZ-RRDDD-LLLLZ-LL",
+        "Branches": []
+    },
+    "B203": {
+        "Main Sequence": "RRRR-RRRZ-UZ-UULL-DDDRR-UUULL-\nDDDRR-UUULL-DDDRR-UUULL-DDDRR-\nUUULL-DDDRR-UUULL-DDDRR-UUU-\nLLLL-DDDRR-UUULL-DD",
+        "Branches": []
+    },
+    "B204": {
+        "Main Sequence": "URZ-DUZUZ-DDZ-UUDZ-UZUDZ-URLZ-\nRZLLZ-LZ-RRRZ-LLZ-RDZ-URLZ-\nDDZDZ-UUU-RRZ-LLDDZ-UURLZ-\nDZRLZ-LURRD-LLU-RRD-LLU-RRD-\nLLU-RRR",
+        "Branches": []
+    },
+    "B205": {
+        "Main Sequence": "DRDRZ-DZRZ-DZ-DRRU-LLLUZ-RZ-\nRDLD-RRU-LULZ-DDRR-UZLLZ-DRR-\nUUZ-LLDRR-DLLUZ-RUZ-URDD-\nLZUUZ-RDDD-LZ-UURUZ-UZ-LDDDD-\nRZ-UUUZ-LDDRZ-RDL",
+        "Branches": []
+    },
+    "B206": {
+        "Main Sequence": "URRRR-DUURU-LLLL-LLL-DLU-DDLD-\nRUULU-RRRR-UU",
+        "Branches": []
+    },
+    "B207": {
+        "Main Sequence": "LZ-RRRRR-DZ-DDD-LLLZ-UUZ-UU-\nRRRZ-DDDD-LLLZ-LLZUZ-URRDD-\nRZZ-RR-UUUU-LLLZ-DDDD-LLZ-\nUURR-UURRR-DDDD-LLLUU-LLDD-\nRRRRR-UUUU-LLLDD-LLDD-LLL",
+        "Branches": []
+    },
+    "B208": {
+        "Main Sequence": "RRRR-RRRZ-LLLLL-LLUU-RRU*-\nRRU*-ZRRZ-U*-Z-DDLL-UURR-DDLL-\nUURR-DDLL-UURR-DDLL-UURR-DDLL-\nUURR-DDLL",
+        "Branches": []
+    },
+    "B209": {
+        "Main Sequence": "ZRLZ-RZLLZ-RRLZ-RZ-RRRRZ-\nLLLLZ-RRDUZ-LLL-DUZ-UDZ-RRR-\nDUZRZ-LDDLZ-LRZLZ-LRZLZ-LRZLZ-\nLZRRZ-LZRRZ-LZRRZ-RRL-UUUU",
+        "Branches": []
+    },
+    "B210": {
+        "Main Sequence": "UUUUU-RRDD-RRR-DLL-UUULL-UUU-\nLLDD-LLL-UURR-DLZ-UURZ-DLZ-\nDRZ-DLZ-UURR-UZLZ-DRD-LUUZ-\nRDLZ-UURZ-DDDLZ-URDZ-DLZ-UUR-\nDDZ-LUUUZ-RDLDD-RZDLZ-URRZ-\nULLUZ-RDRZ-RRZ-DLUUZ-RZ-DLUUZ-\nULDDD-<WAIT>-LDD-RU*-RZDDZ-\nRRDZ-LLZ-LD",
+        "Branches": []
+    },
+    "B211": {
+        "Main Sequence": "UDUR-UULRZ-DRRUR-LZ-DLL-ULZ-\nRDD-LLL-RRRR-UURR-DRUU",
+        "Branches": []
+    },
+    "B212": {
+        "Main Sequence": "LLRZ-LZLRZ-LZLZ-RDZUZ-DDLZ-\nRUU-RLZ-DD-LLLZ-RRRUZ-DLLLL-\nZRRZ-LLLZ-RRZ-LLLZ-RRZ-LLL-\nDDUZ-UDZ-RLZ-RRZ-LLUDZ-UZZ-\nUDD-RLRR",
+        "Branches": []
+    },
+    "B213": {
+        "Main Sequence": "ULLLL-DRDLL-ULLL-DRDLL-UUU-\nRRR-DLL-DRDL-DL-UUUU-RRRR-\nRRDL-DRRD-LLLD-LLLL-UUUU-RRRU-\nRRRR-DRR",
+        "Branches": []
+    },
+    "B214": {
+        "Main Sequence": "DU-RRLLR-DU-LRZLZ-LZRRZ-LZ-\nRDUZ-LRZLZ-L",
+        "Branches": []
+    },
+    "B215": {
+        "Main Sequence": "U*-DRRZ-LLLLZ-RRRZ-LLLLZ-LL-\nRRRRR-Z-DDDDD-LLLLZ-UZLZ-LZZ-\nLUU",
+        "Branches": []
+    },
+    "B216": {
+        "Main Sequence": "RZ-DRRZ-URRU-RRDD-LLL-LLL-\nUURR-DRRU-RRDD-LLL",
+        "Branches": []
+    },
+    "B217": {
+        "Main Sequence": "UZDLZ-DLLUZ-RZUZ-DRLZ-LZ-RRUZ-\nDLLRZ-LZ-LDUZ-RRZ-LLRZ-LDUZ-\nUZDLZ-RUDZ-UZ-DRLZ-ULRZ-RLZ-\nRUZ-LUDZ-ULUZ-RDZUZ-DRLZ-\nUULRZ-RLZ-RDDD-DDDD-ULZ-LRZLZ-\nLLDZ-L",
+        "Branches": []
+    },
+    "B218": {
+        "Main Sequence": "RRRRR-DDDD-RRUUU-LLLL-LLLDD-\nRRRRR-Z-UU-LLLLL-Z-UUU-RRRRR-\nRRRRR-DDD-LLLLL-Z-DD-LLLLL-\nUULZ-LU",
+        "Branches": []
+    },
+    "B219": {
+        "Main Sequence": "LZRLZ-ZZ-LUZ-DRRZ-LZRRZ-LZ-\nRRRZ-LZ-RRRZ-RR",
+        "Branches": []
+    },
+    "B220": {
+        "Main Sequence": "DDD-RRZ-UUUUU-LLLZ-LDDDZ-LLUZ-\nURDZ-LUZ-URZ-DDZ-DLUUU-RDDD-\nLUUU-RDD",
+        "Branches": []
+    },
+    "B221": {
+        "Main Sequence": "RRRD-LLLLZ-DRRRZ-RDZ-LRZLZ-\nRRZ-LLRZ-LZ-LUZDZ-RZLZ-LRZUZ-\nUDZ-ULRZ-LZ-RRRZ-LLRZ-LLZRZ-\nUDDUZ-UDZ-LLZRZ-LLUDZ-DUZZ-\nURLDD",
+        "Branches": []
+    },
+    "B222": {
+        "Main Sequence": "RRRRR-RRRRR-R",
+        "Branches": []
+    },
+    "B223": {
+        "Main Sequence": "<BRANCH>-D",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Only accessible via warping\nBranch for secret exit to S223",
+                "Branch Sequence": "ZD",
+				"Exit to": "S223"
+            }
+        ]
+    },
+    "B224": {
+        "Main Sequence": "LLL-LLL-U*-D-LLLLL",
+        "Branches": []
+    },
+    "S223": {
+        "Main Sequence": "<BRANCH>-UUULU-RRRR-DRU-DRRR-\nU*-LLD",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Exit to B224\nBranch for hint for B000\n  Requires Void Memory",
+                "Branch Sequence": "DLLLL*-RRRR-UUUU-LU-RRRR-DRU-\nDRRR-U*-LLD",
+				"Exit to": "B224"
+            }
+        ]
+    },
+    "B225": {
+        "Main Sequence": "RRRRR-UUUU*-DDD-RRRRR",
+        "Branches": []
+    },
+    "B226": {
+        "Main Sequence": "ULLLL*-DD-LLLLL",
+        "Branches": []
+    },
+    "B227": {
+        "Main Sequence": "DDDR-<BRANCH1>-DRD-RRR",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Branch1 for secret exit to S023\n  Requires Void Wings\n  Requires Void Blade",
+                "Branch Sequence": "RRRR-ULLUU-RURZ-RR-\nDD-<BRANCH2>-DDZ-UULLZ-LLLUR-\nRDZ-DRDDD-RLZ-LRZLZ-RRRZ-\nUULRZ-DUZDZ-UUDZ-DDLRZ-LZ-\nUUUZ-LLUZ-DZ-RULZ-DRRLZ-LDUZ-\nDLRZ-RRRDZ-UZUUZ-RDUZ-LLRZ-\nLLRZ-DDRZ-RR",
+				"Exit to": "S023"
+            },
+            {
+                "Info / Branch Condition": "Branch2 for secret exit to DIS01\n  Requires Void Wings\n  Requires Void Blade\n  Requires special item from B000",
+                "Branch Sequence": "ZLDZ-UZLRZ-DLZ-UDZ-\nRRLZ-DDZUZ-DDLRZ-LLLRZ-UZLZ-\nDUZ-RUDZ-LLRZ-LUUU-DZ-UU-\nRRRLZ-DRLZ-DUZ-DDUZ-DDDUZ-LRZ-\nRRLZ-RRLZ-RZLZ-LRZL",
+				"Exit to": "DIS01"
+            }
+        ]
+    },
+    "B228": {
+        "Main Sequence": "RZUUZ-URZ-DLUZ-UURRR-DLULL-\nDDDZ-RUZ-ULZ-UL",
+        "Branches": []
+    },
+    "B229": {
+        "Main Sequence": "ZRUDZ-DUZLZ-LLZDZ-DRLUU-RZLZ-\nDDRL-URDZ-ULZ-LUZ-RRDDZ-ULDR-\nDD",
+        "Branches": []
+    },
+    "B230": {
+        "Main Sequence": "ZZZZ-DRDZ-ULUDZ-DUZRZ-LDRL-\nURR-Z-DUZLZ-RLRL-RLDUZ-UDZ-\nURZ-RR",
+        "Branches": []
+    },
+    "B231": {
+        "Main Sequence": "DUZ-DRLZ-RZLLZ-RZLLZ-RZ-LLLZ-\nRRZ-LRLR-LLL-URZ-DRZUZ-UDZUZ-\nDLZ-RUUZ-LUZ-RDD-LLLU",
+        "Branches": []
+    },
+    "B232": {
+        "Main Sequence": "DUZ-DDRZ-RZ-LDUZ-LUZRZ-RLZ-\nRDZ-LDRD",
+        "Branches": []
+    },
+    "B233": {
+        "Main Sequence": "DDZ-UUDZ-DUZDZ-DZUUZ-DDUZ-DZ-\nDUZDZ-DLZRZ-RLZRZ-LUZ-DRLZ-\nLRZLZ-LZRRZ-LLRZ-LZ-LRZLZ-\nLUZDZ-DUZ-RRZ-LLRZ-LDUZ-UDZUZ-\nUUUU",
+        "Branches": []
+    },
+    "B234": {
+        "Main Sequence": "UUDZZ-DDZ-UUUU-LLD-URRRR-DZ-D",
+        "Branches": []
+    },
+    "B235": {
+        "Main Sequence": "RZLZ-LRZ-LDZ-DRRLZ-RZRLZ-\nRZRLZ-RZRLZ-RZRLZ-RZRLZ-RZRLZ-\nRDDZ-UZ-DDRLZ-UZDLZ-RRZ-LLLZ-\nRRZ-LLLZ-RRZ-LLL-UDZ-RRZ-\nLLDUZ-RZLUZ-ULZ-RDD-LLLZ-LU",
+        "Branches": []
+    },
+    "B236": {
+        "Main Sequence": "ULLZ-RRDZ-ULLRZ-LZ-LLDZ-URRRZ-\nLLLRZ-LDZ-DRZ-LUURZ-LDDD-UZRZ-\nRRZ-LDZ-DUZ-DRLZ-LLUDZ-RRRZ-RD",
+        "Branches": []
+    },
+    "B237": {
+        "Main Sequence": "ZUUZ-DZ-UU-RRRZ-LZ-RR-DDDZ-\nUUUD-ZZ-DDDZ-LZ-LU",
+        "Branches": []
+    },
+    "B238": {
+        "Main Sequence": "LL-DDDDZ-UU-RRRZ-LLZ-RRRZ-LLZ-\nRRRZ-LLZ-RRRZ-LLUZ-DRRRZ-RLLZ-\nRZ-RD",
+        "Branches": []
+    },
+    "B239": {
+        "Main Sequence": "UZDDZ-DRRLZ-RRZ-LLRZ-LZ-LUUDZ-\nUUZDZ-UUZDZ-UU-RRRZ-LZ-RLRL-\nRLRR-DUZ-LLRL-RLRL-RR-UDZZ-LL-\nRLRL-RLRR-DD",
+        "Branches": []
+    },
+    "B240": {
+        "Main Sequence": "DDDLZ-DZDR-UUZLZ-LULL-UZ-RDL-\nDDD",
+        "Branches": []
+    },
+    "B241": {
+        "Main Sequence": "DDZ-UUZ-UDDUZ-DLZ-LDZ-ULDZ-\nDLDD",
+        "Branches": []
+    },
+    "B242": {
+        "Main Sequence": "LLLZZ-LUUZ-DDZ-RRZ-LLUUZ-DDR-\nZZZZ-L-UUUUU",
+        "Branches": []
+    },
+    "B243": {
+        "Main Sequence": "DUUUZ-DDZ-DZ-UURLZ-DDUZ-DZ\nDUZDZ-DDLZ-RUUUZ-DZUUZ-DZUU-\nLRZDZ-URZ-RLZRZ-DUZDZ-URLZ-RZ-\nRLZRZ-RLZRZ-RLZRZ-RLZRZ-RLZ-\nRDZ-DUZDZ-DRZLZ-LRZLZ-LRZLZ-\nLZZ-RZLLZ-RZLLZ-LUUDZ-UZUDZ-\nUZUDZ-UZ-UR",
+        "Branches": []
+    },
+    "B244": {
+        "Main Sequence": "UZDZ-DDLRZ-UULLZ-LUZ-DRLZ-\nRRRDD-LLZ-RR-UUUZ-DLLL-RRRLL-\nRR-UUUZ-DDD-LLLUZ-DRRR-UDZ-\nUUUZ-DDD-LLLUU-D",
+        "Branches": []
+    },
+    "B245": {
+        "Main Sequence": "DZUDZ-DZZ-DDD",
+        "Branches": []
+    },
+    "B246": {
+        "Main Sequence": "LRZZZ-LRZRZ-LLZ-RRLZ-RZ-RRUZ-\nDLLLZ-LL",
+        "Branches": []
+    },
+    "B247": {
+        "Main Sequence": "RRDZ-ULLZ-RZ-LLL-DDZUZ-DDRLZ-\nLRZ-UUZDZ-UU-RRRZ-LLLDZ-UUZZ-\nDRLZ-UDZ-RRRR-DUZ-UDZUZ-DLLLL-\nZUZ-URRR",
+        "Branches": []
+    },
+    "B248": {
+        "Main Sequence": "LLRR-LZRZ-RLZRZ-RLZRZ-RLZRZ-\nRLZRZ-RLZRZ-RLZR-DUZ-UDZLZ-\nLRZLZ-LRZLZ-LRZLZ-LRZLZ-LRZLZ-\nLRZLZ-LUU-RRRR",
+        "Branches": []
+    },
+    "B249": {
+        "Main Sequence": "UZZ-UUUU-RLDD-RLDZ-UUUZ-DDRZ-\nLDZ-DD-RRRR",
+        "Branches": []
+    },
+    "B250": {
+        "Main Sequence": "UUDZ-UUZDZ-UULRZ-RLZ-DUZDZ-\nURLZ-LRZDZ-UZ-LLLL-RRRRZ-DZZ-\nULLLL-DZZ-DDD",
+        "Branches": []
+    },
+    "B251": {
+        "Main Sequence": "DZUZ-URRLZ-RRZ-LLRZ-LZLRZ-LDZ-\nDUZDZ-DUZ-DDZ-DRRR-LZRZ-RU",
+        "Branches": []
+    },
+    "B252": {
+        "Main Sequence": "ULLLZ-RRRDZ-ULLL-RZLZ-LR-\nZZZZZ-L-DDDDD-RLZ-LRRLZ-RRRZ-\nRUZZ-UUZ-LRZDZ-ULL",
+        "Branches": []
+    },
+    "B253": {
+        "Main Sequence": "ZUZ-UDZUZ-UDZ-ULZ-LDUZ-RRZ-\nLLZ-RRDUZ-LZRRZ-LZDZ-LZRZ-\nRULDZ-RZ-URD-LLUZ-RRDZ-LULD-\nRRULZ-DZ-DRULZ-DRZ-ULU-RDD-\nLUZRZ-DRZ-ULLDZ-RUZ-RDLLU-RDZ-\nLURZ-DLZ-DRUU-LDRZ-DLZ-UZLZ-\nDRRUZ-LDLZ-URZ-DLLZ-URDRZ-\nULLZ-DRZ-ULLZ-DRURZ-DLLZ-ULZ-\nDRRRZ-ULDLZ-URRZ-DLULZ-DRRRZ-\nULDLZ-URRZ-DLULZ-DRRRZ-ULDLZ-\nURRZ-DLULZ-DRRRZ-ULZ-DRRZ-RD",
+        "Branches": []
+    },
+    "B254": {
+        "Main Sequence": "LLL-LLL-<BRANCH>-LLLLL",
+        "Branches": [
+            {
+                "Info / Branch Condition": "Rest area\nBranch to exit to END01",
+                "Branch Sequence": "U*",
+				"Exit to": "quit"
+            }
+        ]
+    },
+    "B255": {
+        "Main Sequence": "<NOTE>",
+        "Branches": [
+			{
+				"Info / Branch Condition" : "Unsolvable. Restart game"
+			}
+		]
+    }
+}
