@@ -9,6 +9,7 @@ import (
 )
 
 type State struct {
+	CurrentScreen string
 	CurrentLevel int
 	RunType      string
 	Cfg          config
@@ -16,8 +17,8 @@ type State struct {
 }
 
 type config struct {
-	Delay           float32 `json:"delay"`
-	Press_duration  float32 `json:"press_duration"`
+	Delay           int `json:"delay"`
+	Press_duration  int `json:"press_duration"`
 	Ignore_branches bool    `json:"ignore_branches"`
 }
 
@@ -36,8 +37,8 @@ func NewState() (State, error){
 	// config
 	configDir := filepath.Join("resources","config.json")
 	var conf = config{
-		Delay: 0.2,
-		Press_duration: 0.2,
+		Delay: 2,
+		Press_duration: 2,
 		Ignore_branches: false,
 	}
 	err := OpenParseJSONFile(configDir, &conf)
@@ -48,6 +49,7 @@ func NewState() (State, error){
 	// sequences
 
 	s := State{
+		CurrentScreen: "Test",
 		CurrentLevel: 0,
 		RunType: "",
 		Cfg: conf,
